@@ -1,3 +1,4 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap'); */
 @import "tailwindcss";
 
 :root {
@@ -11,6 +12,10 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
+
+/* @theme {
+  --font-roboto-slab: "Roboto Slab", serif;
+} */
 
 @media (prefers-color-scheme: dark) {
   :root {
