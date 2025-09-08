@@ -35,6 +35,7 @@ export default function Home() {
           </button>
         </div>
       </section>
+
       <section id="sobre-nos" className="flex h-[60rem] bg-white">
         <div className="flex flex-col items-center gap-8 py-8">
           <div className="w-[44%] h-64 flex flex-row">
@@ -95,7 +96,40 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="depoimentos"></section>
+
+      <section
+        id="depoimentos"
+        className="flex justify-center h-[30rem] bg-white"
+      >
+        <div className="flex flex-col items-center gap-10 w-2/3">
+          <h1 className="text-5xl font-bold">Depoimentos</h1>
+          <div className="flex flex-row gap-8">
+            <div className="bg-[#F7F7F8] p-6 gap-4 flex-col flex flex-1">
+              <h2 className="font-bold">“Foi ótima!”</h2>
+              <h3>
+                “Adorei o passeio, as conversas, as informações e as indicações.
+                Desde o atendimento, até a experiência do roteiro, tudo ótimo”
+              </h3>
+            </div>
+            <div className="bg-[#F7F7F8] p-6 gap-4 flex-col flex flex-1">
+              <h2 className="font-bold">“Trabalho diferenciado! Parabéns”</h2>
+              <h3>
+                “Quero agradecer por vocês me fazer conhecer a cidade que
+                escolhi morar, e onde me sinto em casa.”
+              </h3>
+            </div>
+            <div className="bg-[#F7F7F8] p-6 gap-4 flex-col flex flex-1">
+              <h2 className="font-bold">“Experiência Incrível”</h2>
+              <h3>
+                “Foi uma experiência incrível, única e maravilhosa. Tô em
+                êxtase. Parabéns a todos vocês por esse roteiro! Vida longa ao
+                Caminho da Madre Deus.”
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="fale-conosco"></section>
     </div>
   );
