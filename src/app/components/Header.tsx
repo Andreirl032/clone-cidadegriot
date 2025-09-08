@@ -5,7 +5,7 @@ import logoCidadeGriot from "../../../public/logo-cidade-griot.webp";
 
 export const Header = () => {
   return (
-    <header className="sticky left-0 top-0 h-19 w-full bg-[#FED116] justify-between flex items-center px-30">
+    <header className="sticky left-0 top-0 h-19 w-full bg-(--color-griot) justify-between flex items-center px-30 z-30">
       <div className="flex items-center gap-8">
         <Link href={"https://cidadegriot.com.br/"}>
           <Image
