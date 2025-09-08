@@ -9,6 +9,7 @@ import backgroundCidadeGriot from "../../public/background-cidade-griot.webp";
 import sobreNos1 from "../../public/sobre-nos1.webp";
 import sobreNos2 from "../../public/sobre-nos2.webp";
 import sobreNos3 from "../../public/sobre-nos3.webp";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -131,6 +132,7 @@ export default function Home() {
       </section>
 
       <section id="fale-conosco"></section>
+      <Footer />
     </div>
   );
 }
