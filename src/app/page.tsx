@@ -100,7 +100,7 @@ export default function Home() {
 
       <section
         id="depoimentos"
-        className="flex justify-center h-[30rem] bg-white"
+        className="flex justify-center h-[24rem] bg-white"
       >
         <div className="flex flex-col items-center gap-10 w-2/3">
           <h1 className="text-5xl font-bold">Depoimentos</h1>
@@ -131,7 +131,37 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="fale-conosco"></section>
+      <section
+        id="fale-conosco"
+        className="flex justify-center h-[40rem] bg-white"
+      >
+        <div className="flex flex-col items-center gap-10 w-[45%]">
+          <h1 className="text-5xl font-bold">Fale conosco</h1>
+          <div className="flex flex-col gap-6 w-full">
+            <div className="w-full">
+              <h2>
+                Nome <span className="text-red-500">*</span>
+              </h2>
+              <input className="border-1 border-black p-2 w-full"></input>
+            </div>
+            <div>
+              <h2>
+                E-mail <span className="text-red-500">*</span>
+              </h2>
+              <input className="border-1 border-black p-2 w-full"></input>
+            </div>
+            <div>
+              <h2>
+                Mensagem <span className="text-red-500">*</span>
+              </h2>
+              <textarea className="border-1 border-black p-2 w-full h-32"></textarea>
+            </div>
+            <button className="mr-auto bg-(--color-griot) rounded-md py-3 px-6 font-bold text-xl">
+              Enviar
+            </button>
+          </div>
+        </div>
+      </section>
       <Footer />
     </div>
   );
