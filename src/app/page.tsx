@@ -133,10 +133,10 @@ export default function Home() {
 
       <section
         id="fale-conosco"
-        className="flex justify-center h-[40rem] bg-white"
+        className="flex justify-center h-[34rem] bg-white"
       >
         <div className="flex flex-col items-center gap-10 w-[45%]">
-          <h1 className="text-5xl font-bold">Fale conosco</h1>
+          <h1 className="text-5xl font-bold">Fale Conosco</h1>
           <div className="flex flex-col gap-6 w-full">
             <div className="w-full">
               <h2>
@@ -156,10 +156,10 @@ export default function Home() {
               </h2>
               <textarea className="border-1 border-black p-2 w-full h-32"></textarea>
             </div>
-            <button className="mr-auto bg-(--color-griot) rounded-md py-3 px-6 font-bold text-xl">
-              Enviar
-            </button>
           </div>
+          <button className="bg-(--color-griot) rounded-md py-3 px-6 font-bold text-xl w-min">
+            Enviar
+          </button>
         </div>
       </section>
       <Footer />
